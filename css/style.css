@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.form-creation{
+    width: 100%;
+    height: 110vh;
+    background-image: url(/images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-container{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    background: linear-gradient(to top, #ebd197,#b48811, #a2790d, #bb9b49 );
+}
+
+.form-btn{
+    width: 320px;
+    margin: 35px auto;
+    position: relative;  
+    border-radius: 25px;
+    
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+a:hover{
+    color: aqua;
+}
+
+
+.login{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: linear-gradient(to right,#011f4b,#03396c,	#005b96, #6497b1, #b3cde0  );
+   color: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3rem;
+    float: left;
+    box-shadow: 2px 2px 20px 9px #c78d71;
+    transition: .4s;
+}
+.login:hover{
+    color: aqua;
+    background-color: #3d5e52;
+    transform: scale(1.2);
+}
+.signup{
+    padding: 10px 25px;
+    cursor: pointer;
+    background: linear-gradient(to right,#011f4b,#03396c,	#005b96, #6497b1, #b3cde0  );
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+    float: right;
+    box-shadow: 2px 2px 20px 9px #c78d71;
+    transition: .4s;
+}
+
+.signup:hover{
+    color: aqua;
+    background-color: #3d5e52;
+    transform: scale(1.2);
+}
+
+.msg h2{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+   
+   
+   
+
+}
+
+
+.data-field{
+   left: 50px;
+    top: 180px;
+    width: 280px;
+    position: absolute;
+    transition: .4s;
+}
+#userid{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+    text-align: center;
+   background-color: black;
+   color: aliceblue;
+}
+#userid:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#user-pass{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+
+}
+#user-pass:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+#checkbox{
+    margin: 10px 5px 27px 8px;
+}
+span{
+    color: black;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+}
+.submit{
+    width: 85%;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    background-color: #3d5e52;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.submit:hover{
+    background-color: orangered;
+    color: yellow;
+}
+.text {
+    margin-top: 250px;
+}
+.text p{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+.text p a{
+    text-decoration: none;
+    color: rgb(76, 6, 216);
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+/* signup form starts from here */
+
+.form-creation2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.form-container2 {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    background: linear-gradient(to top, #007777, #006666, #005555, #004444, #003333);
+}
+.form-btn2{
+    width: 320px;
+    margin: 35px auto;
+    position: relative;  
+    border-radius: 25px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+a:hover {
+    color: aqua;
+}
+
+
+
+.signup2 {
+    padding: 10px 25px;
+    cursor: pointer;
+    background: linear-gradient(to right, #011f4b, #03396c);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    float: right;
+    box-shadow: 2px 2px 20px 9px #c78d71;
+    transition: .4s;
+}
+.signup2:hover{
+    color: aqua;
+    background-color: #3d5e52;
+    transform: scale(1.2);
+}
+
+
+.login2 {
+  
+    padding: 10px 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, #011f4b, #03396c, );
+    color: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.3rem;
+    float: left;
+    box-shadow: 2px 2px 20px 9px #c78d71;
+    transition: .4s;
+}
+
+.submit2 {
+
+    width: 85%;
+    cursor: pointer;
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.submit2:hover {
+    background-color: rgb(30, 135, 79);
+    color: yellow;
+}
+
+.msg2 h2 {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: beige;
+   
+   
+
+
+
+}
+#checkbox2{
+    margin: 10px 5px 27px 8px;
+}
+
+span {
+    color: white;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+
+  
+    
+}
